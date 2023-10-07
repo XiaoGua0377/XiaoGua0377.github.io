@@ -3,7 +3,7 @@
 <html lang="cn">
     <head>
         <meta charset="utf-8" />
-        <title>IG簡易爬蟲 | XiaoGua の窩</title>
+        <title>AI繪圖工具 | XiaoGua の窩</title>
         <meta name="author" content="XiaoGua" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -147,14 +147,14 @@
             <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
                 <div class="article">
     <div>
-        <h1>IG簡易爬蟲</h1>
+        <h1>AI繪圖工具</h1>
     </div>
     <div class="info">
         <span class="date">
             <span class="icon">
                 <i class="fa-solid fa-calendar fa-fw"></i>
             </span>
-            2023/9/30
+            2023/10/7
         </span>
         
         
@@ -166,12 +166,17 @@
             
             <span class="tag">
                 
-                <a href="/tags/%E5%B7%A5%E5%85%B7/" style="color: #03a9f4">工具</a>
+                <a href="/tags/AI/" style="color: #00bcd4">AI</a>
             </span>
             
             <span class="tag">
                 
-                <a href="/tags/%E7%88%AC%E8%9F%B2/" style="color: #ff7d73">爬蟲</a>
+                <a href="/tags/%E5%B7%A5%E5%85%B7/" style="color: #00a596">工具</a>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/%E5%BD%B1%E5%83%8F/" style="color: #00bcd4">影像</a>
             </span>
             
         </span>
@@ -179,16 +184,30 @@
     </div>
     
     <div class="content" v-pre>
-        <h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><blockquote>
-<p><a target="_blank" rel="noopener" href="https://github.com/XiaoGua0377/IG-reptile-">專案網址</a></p>
+        <h2 id="DALL·E-2"><a href="#DALL·E-2" class="headerlink" title="DALL·E 2"></a>DALL·E 2</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://openai.com/dall-e-2">官方網站</a><br>由OpenAI開發，<strong>新用戶有15個免費積分的試用限額</strong>，用完後要付費使用了。</p>
 </blockquote>
-<p>打開CMD輸入</p>
-<p>●爬取使用者指令:<br>instaloader.exe (使用者ID)   可爬取該使用者照片、貼文、影音</p>
-<p>如果不想要貼文資訊的話可以加上 –no-metadata-json<br>範例:instaloader.exe (使用者ID) –no-metadata-json</p>
-<p>果再不要 txt 文件的話可以再加上 –no-captions<br>範例:instaloader.exe (使用者ID) –no-metadata-json –no-captions</p>
-<p>●爬取所有 hashtag(標記)指令:<br>instaloader.exe (“hashtag標記”)<br>範例:instaloader.exe “#taiwan”</p>
-<p>您還可以使用<br>–stories 下載使用者的故事<br>–tagged 下載被標記的內容<br>–igtv 下載 IGTV<br>–geotags 下載標記的地點<br>–post-filter 來限制貼文日期</p>
-<p>我的相關連結: <a target="_blank" rel="noopener" href="https://linktr.ee/xiaogua0377">點我</a></p>
+<p>DALL·E 2適用於幾乎任何風格的圖像創作也適用於靈感發想<br>Surprise me 隨機產生提示字<br>產生出的圖片右鍵Edit image可以去背+延生圖片<br>產生出的圖片右鍵Generate variations 以圖片為基底產生變化</p>
+<h2 id="Midjourney"><a href="#Midjourney" class="headerlink" title="Midjourney"></a>Midjourney</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.midjourney.com/home/?callbackUrl=/app/">官方網站</a><br><strong>月費訂閱制 基本：$10、標準：$30、專業：$60</strong></p>
+</blockquote>
+<p>Midjourney是利用社交平台Discord來創作，必須加入Midjourney的DC群組才可以使用<br>付款後在DC群組中任一聊天室輸入 <strong>&#x2F;imagine (“你要的關鍵字”)</strong> 即可產生相對應圖片<br>U1-U4點擊可以放大該張高解圖度的圖片以便下載<br>V1-V4點擊以該圖片為基底產生變化</p>
+<h2 id="Stable-Diffusion"><a href="#Stable-Diffusion" class="headerlink" title="Stable Diffusion"></a>Stable Diffusion</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://stablediffusionweb.com/">官方網站</a><br><strong>不限次數完全免費，大量社群模組資源</strong></p>
+</blockquote>
+<p>Stable Diffusion 是一個免費開源AI繪圖模型<br>只需要再輸入框輸入關鍵字即可產圖<br>另外Stable Diffusion支援桌面應用程式</p>
+<h2 id="leonardo-AI"><a href="#leonardo-AI" class="headerlink" title="leonardo.AI"></a>leonardo.AI</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://leonardo.ai/">官方網站</a><br><strong>每日有150枚免費代幣，付費升級每日享有更多代幣</strong></p>
+</blockquote>
+<p>Leonardo的 AI 畫板可以延伸作畫，針對同一幅繪圖的風格在延展開來<br>可以選擇生成圖片的尺寸<br>有圖像去背和圖像延伸作畫</p>
+<h2 id="PixAI-Art"><a href="#PixAI-Art" class="headerlink" title="PixAI.Art"></a>PixAI.Art</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://pixai.art/">官方網站</a><br><strong>每日有一萬枚免費積分，付費升級每日享而外積分</strong></p>
+</blockquote>
+<p>PixAI.Art是一個二次元AI生成網站<br>裡面可以生成多種ACG圖片，也有許多遊戲與動漫的模板關鍵字供給參考<br>生成完的作品會自動存在生成履歷</p>
+<h2 id="Fotor"><a href="#Fotor" class="headerlink" title="Fotor"></a>Fotor</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.fotor.com/ai/">官方網站</a><br><strong>每日可簽到賺取積分，購買Pro版本即可生成更多圖片</strong></p>
+</blockquote>
+<p>Fotor有提供中文介面此外可以選擇畫面比例和藝術風格<br>但每日限定生成數量很少，繪圖速度也較慢</p>
 
     </div>
     
